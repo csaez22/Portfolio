@@ -1,0 +1,91 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+.navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+.navbar-brand{
+  padding-left: 1vw;
+}
+.active:hover{
+  cursor: default;
+}
+
+#hero-section{
+  height: 75vh;
+  width: 100%;
+  background-image: url(img/greece_photo.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#profile{
+  position: relative;
+  top: 18vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid rgba(0,0,0,.2);
+  border-radius: 50%;
+  overflow-y: hidden;
+}
+#profile img{
+  width: 100%;
+  transform: translateY(-14%);
+  /* border-radius: inherit; */
+}
+#hero-section h1{
+  text-align: center;
+  margin-top: 18vh;
+  color: whitesmoke;
+}
+#hero-section h5{
+  text-align: center;
+  color: whitesmoke;
+  font-style: italic;
+  margin-top: -0.5vh;
+}
+
+#skills-section{
+  background-color: #d4e1e8;
+}
+#skills-section img{
+  height: 20vh;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+#skills-section p{
+  width: 65%;
+  display: block;
+  margin: 10px auto;
+}
+#skills-target{
+  transform: translateY(-40px);
+}
+
+#mission-section img{
+  width: 80%;
+  max-height: 50vh;
+}
+#mission-target{
+  transform: translateY(-40px);
+}
+
+#contact-section i{
+ color: #3d3d3d; 
+}
+#contact-section i:hover{
+  color: #0000EE;
+}
+
+#footer-section{
+  text-align: center;
+  background-color: #1c1c1c;
+  padding: 3vh 0;
+  color: whitesmoke;
+}
+#footer-section p{
+  margin: 0;
+}
