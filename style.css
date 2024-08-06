@@ -65,6 +65,10 @@
   transform: translateY(-40px);
 }
 
+#mission-section{
+  background-color: #d4e1e8;
+}
+
 #mission-section img{
   width: 80%;
   max-height: 50vh;
