@@ -96,8 +96,8 @@
 /* Hover over projects */
 .fade {
 	opacity: 1;
-	transition: .3s ease-in-out;
 }
 .fade:hover {
 	opacity: .5;
+	transition: .3s ease-in-out;
 }
