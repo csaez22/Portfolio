@@ -94,10 +94,10 @@
 }
 
 /* Hover over projects */
-.fade {
+.special_effect {
 	opacity: 1;
-  transition: opacity .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
-.fade:hover {
+.special_effect:hover {
 	opacity: .5;
 }
