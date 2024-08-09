@@ -101,3 +101,7 @@
 .special_effect:hover {
 	opacity: .5;
 }
+
+#projects-target {
+  transform: translateY(-40px);
+}
